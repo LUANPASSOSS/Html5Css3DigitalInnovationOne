@@ -1,0 +1,91 @@
+<!DOCTYPE html> 		<!--informar que o documento é do tipo html5-->
+<html lang="pt-br">		<!--lingua português do brasil-->
+	<head>							<!--onde ficam as meta tags-->
+		<meta charset="utf-8">      <!--meta de padrão brasileiro, para permitir acentos-->
+		<title>Minha página</title> <!--nome que fica em cima da aba da página-->
+		<link rel="stylesheet" type="text/css" href="css/style.css">		<!--link: linkar o arquivo css ao html; rel: define que irá linkar á uma folha de estilos; type: tipo, texto/css; href: a referência-->
+	</head>
+	
+	<body> 							<!--corpo-->
+		<nav>						<!--menu de navegação-->
+			<h1>Inove</h1>
+			<ul>					<!--inserir lista de itens-->
+				<li><a href="#serviços">serviços</a></li>		<!--a: link; href: referência; #:sinal de id, de identificação-->
+				<li><a href="#clientes">clientes</a></li>		<!--sempre que o link for para um id, não esquecer o "#"-->
+				<li><a href="#inovação">inovação</a></li>
+				<li><a href="#time">time</a></li>
+				<li><a href="#parceiros">parceiros</a></li>
+				<li><a href="#contato">contato</a></li>
+			</ul>
+		</nav>
+		
+		<header>					<!--cabeçalho-->
+			<h2>Tudo o que sua empresa precisa, você encontra aqui.</h2>
+		</header>
+
+			<section id="serviços">				<!--section:definir uma seção; id:identificação-->
+				<h2>serviços</h2>
+				<h3>Oferecemos os melhores serviços.</h3>
+				<div>
+				<img src="IMAGENS/serviço.jpg" class="img_padrao">				<!--img:inserir imagem; src:local aonde está a imagem e nome do arquivo; width:definir largura da imagem-->
+				</div>
+			</section>
+
+			<section id="clientes">			
+				<h2>clientes</h2>
+				<h3>Clientes satisfeitos.</h3>
+				<div>
+				<img src="IMAGENS/cliente.jpg" class="img_padrao">
+				</div>
+
+			</section>
+			<section id="inovação">
+				<h2>Inovação</h2>
+				<h3>Sempre inovando para melhor atendê-lo.</h3>
+				<div>
+					<img src="IMAGENS/inovação.jpg" class="img_padrao">
+				</div>
+			</section>
+
+			<section id="time">
+				<h2>Time</h2>
+				<h3>Time comprometido com o cliente.</h3>
+				<div>
+					<img src="IMAGENS/time.jpg" class="img_padrao">
+				</div>
+			</section>
+
+			<section id="parceiros">
+				<h2>Parceiros</h2>
+				<h3>Temos a contribuição de grandes parceiros. </h3>
+				<div>
+					<a href="https://digitalinnovation.one/" target="_blank">
+						<img src="IMAGENS/dig-ino-one.png" class="img_padrao"></a>
+					<!--a href: utilizado para criar um link na imagem, para a página da digital innovation one-->
+					<!--"target="blank"": utilizado para abrir a página da digital innovation one em outra aba-->
+				</div>
+			</section>
+
+			<section id="contato">
+				<h2>Contato</h2>
+				<h3>Entre em contato com nossa equipe.</h3>
+				<div>
+					<img src="IMAGENS/contato.jpg" class="img_padrao">
+				</div>
+				<br><br>
+				<div>
+					<img src="IMAGENS/email.png" class="img_dif">
+					<p><a href="mailto:contato@empresa.com">contato@empresa.com</a></p>		<!--a: usado para criar um link; maito:abre o email, com o destinatário inserido á frente do mailto -->
+				</div>
+				<br>
+				<div>
+						<img src="IMAGENS/telefone.png" class="img_dif">
+						<p><a href="tel:9999999999">(99)9999-9999</a></p>						<!--a: usado para criar um link; tel: abrirá algum programa no computador para ligação, e ligará para o número informado-->
+				</div>
+			</section>
+		<footer>					<!--rodapé-->
+			<p>Desenvolvido por LUÃ</p>
+		</footer>
+			
+	</body>
+</html>	

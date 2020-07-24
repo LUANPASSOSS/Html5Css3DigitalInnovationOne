@@ -1,0 +1,24 @@
+body{
+    background: rgb(227, 242, 243);     /*background: cor de fundo da página*/
+    margin-left: 20px;                    /*distância da margem esquerda*/ 
+}
+
+h1{                                     /*atribuição a todo elemento h1*/
+    font-family: fantasy;               /*tipo de fonte*/
+    color: rgb(17, 38, 59);           /*cor*/  
+    margin-bottom: 20px;                /*distância da margem embaixo do elemento*/
+}
+
+header{
+    margin-top: 50px;                   /*distância da margem á cima do elemento*/
+}
+
+
+.img_dif{                               /*o sinal de ponto".", indica que é uma classe*/    
+    width: 25px;                        /*sofrerá a alteração onde estiver especificado a classe no código html*/
+}
+
+.img_padrao{
+    margin-bottom: 50px;
+    width: 300px;
+}
